@@ -1,4 +1,4 @@
-# gym-system
+# Fitnesso - gym-system
 ASP.NET project that is not finished yet (part of University classes)
 
 <h3>ASP.NET project which is ASP.NET project that was written as a website for a gym</h3>
@@ -42,6 +42,22 @@ Our example sprint review is available here: shorturl.at/fLOST
 <h3>Status of the project</h3>
 Likely, the project will not be completed, due to the lack of time of those responsible for programming. We continue to be students and instead of this project, we have a dozen more to complete.
 Nevertheless, I want to show that we worked in a SCRUM team trying to keep all the principles of agile methodologies.
+
+<h3>How to run the project</h3>
+<ul>
+<li> Import the database (projekt-obiektDB.bak) file to Microsoft SQL Server at first.</li>
+<li> In visual studio, add the solution or project </li>
+<li> Modify the Connection String as you needed to connect to database. Go to (inside project) : PMApp/Web.config. At the last portion, you'll find the connection string like below: </li>
+
+```
+<connectionStrings>
+		<add name="con" connectionString="Data Source=LAPTOP-NEUL726L;Initial Catalog=projekt-obiektDB;Integrated Security=True" />
+		<add name="projekt-obiektDBConnectionString" connectionString="Data Source=LAPTOP-NEUL726L;Initial Catalog=projekt-obiektDB;Integrated Security=True"
+			providerName="System.Data.SqlClient" />
+ </connectionStrings>
+```
+ </ul>
+
 
 <h3>Technologies</h3>
 <p align="center">
